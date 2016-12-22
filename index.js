@@ -105,6 +105,8 @@ module.exports = {
     'react/jsx-uses-vars': [2],
     'react/jsx-wrap-multilines': [2],
 
+    'jsx-a11y/no-static-element-interactions': [0],
+
     'import/prefer-default-export': [0],
     'import/no-dynamic-require': [2]
   },
