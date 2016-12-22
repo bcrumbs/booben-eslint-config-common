@@ -1,0 +1,30 @@
+{
+  "name": "@eslint/eslint-config-common",
+  "version": "0.1.0",
+  "description": "Eslint config common package",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.ordbuy.com:29184/reactackle/reactackle.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "common"
+  ],
+  "author": "Oleg Nosov <nosov@ordbuy.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "nyc": {
+    "sourceMap": false,
+    "instrument": false
+  }
+}
