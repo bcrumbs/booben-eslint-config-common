@@ -41,7 +41,7 @@ module.exports = {
     'spaced-comment': [2, 'always',
       {
         'line': {
-          'exceptions': ['noinspection']
+          'markers': ['noinspection']
         }
       }
     ],
