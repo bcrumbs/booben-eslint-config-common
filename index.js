@@ -11,6 +11,11 @@ module.exports = {
     'no-param-reassign': [0],
     'no-iterator': [0],
     'no-plusplus': [0],
+    'no-trailing-spaces': [2,
+      {
+        'skipBlankLines': true
+      }
+    ],
     'dot-notation': [1],
     'one-var': [0],
     'no-underscore-dangle': [0],
@@ -32,7 +37,14 @@ module.exports = {
     'no-mixed-operators': [0],
     'no-bitwise': [0],
     'no-unused-expressions': [2],
-    'class-methods-use-this': [1],
+    'class-methods-use-this': [0],
+    'spaced-comment': [2, 'always',
+      {
+        'line': {
+          'exceptions': ['noinspection']
+        }
+      }
+    ],
 
     'react/display-name': [2],
     'react/forbid-component-props': [2],
@@ -106,6 +118,7 @@ module.exports = {
     'react/jsx-wrap-multilines': [2],
 
     'jsx-a11y/no-static-element-interactions': [0],
+    'jsx-a11y/label-has-for': [0],
 
     'import/prefer-default-export': [0],
     'import/no-dynamic-require': [2]
