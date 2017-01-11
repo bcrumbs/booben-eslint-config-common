@@ -1,6 +1,6 @@
 {
   "name": "@eslint/eslint-config-common",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Eslint config common package",
   "main": "index.js",
   "repository": {

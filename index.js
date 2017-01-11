@@ -121,7 +121,16 @@ module.exports = {
     'jsx-a11y/label-has-for': [0],
 
     'import/prefer-default-export': [0],
-    'import/no-dynamic-require': [2]
+    'import/no-dynamic-require': [2],
+    
+    // Added by Dmitriy Bizyaev on 11.01.2017
+    'comma-dangle': [2, {
+      'arrays': 'always-multiline',
+      'objects': 'always-multiline',
+      'imports': 'always-multiline',
+      'exports': 'always-multiline',
+      'functions': 'ignore',
+    }]
   },
 
 
