@@ -1,6 +1,6 @@
 {
   "name": "@eslint/eslint-config-common",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Eslint config common package",
   "main": "index.js",
   "repository": {
@@ -15,13 +15,13 @@
   "author": "Oleg Nosov <nosov@ordbuy.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "babel-core": "^6.18.2",
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.12.2",
-    "eslint-config-airbnb": "^13.0.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
   },
   "nyc": {
     "sourceMap": false,

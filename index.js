@@ -122,7 +122,7 @@ module.exports = {
 
     'import/prefer-default-export': [0],
     'import/no-dynamic-require': [2],
-    
+
     // Added by Dmitriy Bizyaev on 11.01.2017
     'comma-dangle': [2, {
       'arrays': 'always-multiline',
