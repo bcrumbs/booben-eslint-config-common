@@ -33,14 +33,6 @@ module.exports = {
     'global-require': [2],
     'no-use-before-define': [1],
     'no-unsafe-finally': [0],
-    'no-magic-numbers': [2,
-      {
-        'ignore': [0, 1],
-        'ignoreArrayIndexes': true,
-        'enforceConst': true,
-        'detectObjects': true
-      }
-    ],
     'no-else-return': [0],
     'no-shadow': [0],
     'no-mixed-operators': [0],
@@ -54,6 +46,7 @@ module.exports = {
         }
       }
     ],
+    'tabindex-no-positive': [0],
 
     'react/display-name': [2],
     'react/forbid-component-props': [2],
