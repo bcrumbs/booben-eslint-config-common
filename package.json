@@ -1,19 +1,15 @@
 {
-  "name": "@eslint/eslint-config-common",
+  "name": "booben-eslint-config-common",
   "version": "0.3.2",
   "description": "Eslint config common package",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@gitlab.ordbuy.com:29184/Nosov/eslint-config-common.git"
-  },
   "keywords": [
     "eslint",
     "config",
     "common"
   ],
-  "author": "Oleg Nosov <nosov@ordbuy.com>",
-  "license": "UNLICENSED",
+  "author": "braincrumbs.io",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.1",
